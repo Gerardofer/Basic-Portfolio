@@ -1,6 +1,8 @@
 body {
 	margin: 0;
-	background-image: url("file:////Users/gerfernandez/Desktop/Bootcamp_UCB/Basic-Portfolio/ep_naturalwhite/ep_naturalwhite.png");
+	/*old wall background*/
+	background-image: url("file:///Users/gerfernandez/Desktop/Bootcamp_UCB/Basic-Portfolio/old_wall/old_wall.png");
+
 
 }
 
@@ -15,8 +17,51 @@ h3 {
 
 p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 15px;
 }
 
+a {
+	outline: none;
+	text-decoration: none;
+}
+
+label {
+	display: inline-block;
+	width: 70px;
+	margin-left: 55px;
+	padding-bottom: 10px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 17px;
+}
+
+input, textarea {
+	width: 550px;
+	box-sizing: border-box;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-left: 55px;
+}
+textarea {
+	height: 200px;
+}
+
+input {
+	height: 30px;
+}
+
+form div + div {
+	margin-top: 20px;
+}
+
+button {
+	width: 115px;
+	padding: 10px;
+	background: #4aaaa5;
+	color: #ffffff;
+	font-size: 17px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	border: none;
+	cursor: pointer;
+}
 
 .navBar {
 	background: #ffffff;
@@ -46,6 +91,27 @@ p {
 	letter-spacing: 2px;
 }
 
+.Contact {
+	background: #ffffff;
+	width: 650px;
+	margin-left: 170px;
+	border: 2px solid #cccccc;
+	margin-top: 45px;
+	padding: 30px;
+	letter-spacing: 2px;
+}
+
+.gallery {
+	background: #ffffff;
+	width: 650px;
+	margin-left: 170px;
+	border: 2px solid #cccccc;
+	margin-top: 45px;
+	padding: 30px;
+	letter-spacing: 2px;
+	overflow: auto;
+}
+
 .photo {
 	border: 1px solid #cccccc;
 	float: left;
@@ -60,7 +126,7 @@ p {
 	padding: 20px;
 	border: 2px solid #cccccc;
 	position: absolute;
-	right: 40px;
+	right: 65px;
 	top: 117px;
 
 }
@@ -73,6 +139,7 @@ p {
 	margin-top: 45px;
 	text-align: center;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	clear: both;
 }
 
 .icon {
@@ -81,6 +148,87 @@ p {
 	height: 60px;
 	padding: 10px;
 	margin-left: 2px;
+}
+
+.button {
+	margin-left: 55px;
+}
+
+.images {
+	width: 44.5%;
+	padding: 15px;
+	float: left;
+}
+
+#Gerardo {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 249px;
+	height: 25px;
+	padding: 20px;
+	position: absolute;
+	text-align: center;
+	left: 217px;
+	top: 410px;
+}
+
+#Amazonas {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 250px;
+	height: 25px;
+	padding: 20px;
+	position: absolute;
+	text-align: center;
+	left: 536px;
+	top: 410px;
+}
+
+#portrait {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 249px;
+	height: 25px;
+	padding: 20px;
+	position: absolute;
+	text-align: center;
+	left: 217px;
+	top: 657px;
+}
+
+#CTA {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 250px;
+	height: 25px;
+	padding: 20px;
+	position: absolute;
+	text-align: center;
+	left: 536px;
+	top: 657px;
+}
+
+#sounds {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width: 249px;
+	height: 25px;
+	padding: 20px;
+	position: absolute;
+	text-align: center;
+	left: 217px;
+	top: 904px;
+
 }
 
 #about, #portfolio, #contact {
@@ -116,6 +264,13 @@ p {
 #connect {
 	font-size: 20px;
 }
+
+#name, #email, #msg {
+	font-size: 17px;
+	color: #7c7676;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 
 
 
