@@ -18,6 +18,7 @@ h3 {
 p {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 15px;
+	letter-spacing: 0;
 }
 
 a {
@@ -89,7 +90,7 @@ button:hover {
 
 .Bio {
 	background: #ffffff;
-	width: 650px;
+	width: 618px;
 	margin-left: 170px;
 	border: 2px solid #cccccc;
 	margin-top: 45px;
@@ -99,7 +100,7 @@ button:hover {
 
 .Contact {
 	background: #ffffff;
-	width: 650px;
+	width: 618px;
 	margin-left: 170px;
 	border: 2px solid #cccccc;
 	margin-top: 45px;
@@ -109,7 +110,7 @@ button:hover {
 
 .gallery {
 	background: #ffffff;
-	width: 650px;
+	width: 618px;
 	margin-left: 170px;
 	border: 2px solid #cccccc;
 	margin-top: 45px;
@@ -138,7 +139,7 @@ button:hover {
 
 .socialMedia {
 	background: #ffffff;
-	width: 250px;
+	width: 248px;
 	height: 200px;
 	padding: 20px;
 	border: 2px solid #cccccc;
@@ -182,13 +183,13 @@ button:hover {
 	color: #ffffff;
 	font-size: 20px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	width: 249px;
+	width: 235px;
 	height: 25px;
 	padding: 20px;
 	position: absolute;
 	text-align: center;
 	left: 217px;
-	top: 410px;
+	top: 398px;
 }
 
 #Amazonas {
@@ -196,13 +197,13 @@ button:hover {
 	color: #ffffff;
 	font-size: 20px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	width: 250px;
+	width: 235px;
 	height: 25px;
 	padding: 20px;
 	position: absolute;
 	text-align: center;
-	left: 536px;
-	top: 410px;
+	left: 522px;
+	top: 398px;
 }
 
 #portrait {
@@ -210,13 +211,13 @@ button:hover {
 	color: #ffffff;
 	font-size: 20px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	width: 249px;
+	width: 235px;
 	height: 25px;
 	padding: 20px;
 	position: absolute;
 	text-align: center;
 	left: 217px;
-	top: 657px;
+	top: 635px;
 }
 
 #CTA {
@@ -224,13 +225,13 @@ button:hover {
 	color: #ffffff;
 	font-size: 20px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	width: 250px;
+	width: 235px;
 	height: 25px;
 	padding: 20px;
 	position: absolute;
 	text-align: center;
-	left: 536px;
-	top: 657px;
+	left: 522px;
+	top: 635px;
 }
 
 #sounds {
@@ -238,13 +239,13 @@ button:hover {
 	color: #ffffff;
 	font-size: 20px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	width: 249px;
+	width: 235px;
 	height: 25px;
 	padding: 20px;
 	position: absolute;
 	text-align: center;
 	left: 217px;
-	top: 904px;
+	top: 872px;
 
 }
 
