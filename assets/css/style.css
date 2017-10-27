@@ -13,6 +13,7 @@ h3 {
 	padding: 20px;
 	border-bottom: 3px solid #cccccc;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	
 }
 
 p {
@@ -34,6 +35,10 @@ label {
 	padding-bottom: 10px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 17px;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.4),
+				 1px 1px 2px rgba(0,0,0,0.1),
+				 1px 1px 2px rgba(0,0,0,0.1);
+				 
 }
 
 input, textarea {
@@ -63,11 +68,18 @@ button {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	border: none;
 	cursor: pointer;
+	text-shadow: 1px 2px 3px rgba(0,0,0,0.4),
+				 1px 3px 4px rgba(0,0,0,0.1),
+				 1px 4px 5px rgba(0,0,0,0.1);
 }
 
 button:hover {
-	background-color: #53ccc3;
-	color: #f7f2f2;
+	background-color: #078279;
+	color: white;
+}
+
+i {
+	color: #898989;
 }
 
 .navBar {
@@ -87,6 +99,7 @@ button:hover {
 	top: 12px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
+
 
 .Bio {
 	background: #ffffff;
@@ -139,9 +152,9 @@ button:hover {
 
 .socialMedia {
 	background: #ffffff;
-	width: 248px;
+	width: 258px;
 	height: 200px;
-	padding: 20px;
+	padding: 10px;
 	border: 2px solid #cccccc;
 	position: absolute;
 	right: 5%;
@@ -189,6 +202,9 @@ button:hover {
 	text-align: center;
 	left: 217px;
 	top: 398px;
+	text-shadow: 1px 2px 3px rgba(0,0,0,0.4),
+				 1px 3px 4px rgba(0,0,0,0.1),
+				 1px 4px 5px rgba(0,0,0,0.1);
 }
 
 #Amazonas {
@@ -203,6 +219,9 @@ button:hover {
 	text-align: center;
 	left: 522px;
 	top: 398px;
+	text-shadow: 1px 2px 3px rgba(0,0,0,0.4),
+				 1px 3px 4px rgba(0,0,0,0.1),
+				 1px 4px 5px rgba(0,0,0,0.1);
 }
 
 #portrait {
@@ -217,6 +236,9 @@ button:hover {
 	text-align: center;
 	left: 217px;
 	top: 635px;
+	text-shadow: 1px 2px 3px rgba(0,0,0,0.4),
+				 1px 3px 4px rgba(0,0,0,0.1),
+				 1px 4px 5px rgba(0,0,0,0.1);
 }
 
 #CTA {
@@ -231,6 +253,9 @@ button:hover {
 	text-align: center;
 	left: 522px;
 	top: 635px;
+	text-shadow: 1px 2px 3px rgba(0,0,0,0.4),
+				 1px 3px 4px rgba(0,0,0,0.1),
+				 1px 4px 5px rgba(0,0,0,0.1);
 }
 
 #sounds {
@@ -245,6 +270,9 @@ button:hover {
 	text-align: center;
 	left: 217px;
 	top: 872px;
+	text-shadow: 1px 2px 3px rgba(0,0,0,0.4),
+				 1px 3px 4px rgba(0,0,0,0.1),
+				 1px 4px 5px rgba(0,0,0,0.1);
 
 }
 
@@ -291,10 +319,13 @@ button:hover {
 	left: 170px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	letter-spacing: 2px;
+	text-shadow: 1px 2px 3px rgba(0,0,0,0.4),
+				 1px 3px 4px rgba(0,0,0,0.1),
+				 1px 4px 5px rgba(0,0,0,0.1);
 }
 
 #connect {
-	font-size: 20px;
+	font-size: 25px;
 }
 
 #name, #email, #msg {
